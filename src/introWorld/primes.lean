@@ -6,11 +6,12 @@ import tactic
 open nat
 
 /-
-Wir nehmen an es gibt endlich viele Primzahlen P = {p1, p2, ..., pr}.
-Sei n = p1 ∗ p2 ∗ p3 ∗ ... ∗ pr + 1 und p ∈ P mit p | n (p Primteiler von n).
+Wir nehmen an es gibt endlich viele Primzahlen P = {p1, p2, ..., pn}.
+Sei m = n!+1 und p ∈ P mit p | m (p Primteiler von m).
 
-Da p | (p1p2...pr) + 1 und p | (p1p2...pr) folgt daraus, dass p | (p1p2...pr) + 1 −
-(p1p2...pr) woraus p | 1 folgt.
+
+Da p | n! + 1 und p | n! folgt daraus, dass p | n! + 1 −
+n! woraus p | 1 folgt.
 
 Dies ist jedoch nicht möglich, da 1 durch keine Primzahl teilbar ist. Also ist die
 Menge {p1, p2, ..., pr} niemals die Menge aller Primzahlen.
@@ -25,6 +26,16 @@ theorem primes_infinite : ∀ n, ∃ p > n, nat.prime p :=
 begin
   intro n,
   
-  -- Beweise, dass 
+  let m := n.factorial + 1,
+  let p := min_fac m, 
+
+  use p,
+  split,
+  {
+    sorry,
+  },
+  {
+    sorry,
+  }
   
 end

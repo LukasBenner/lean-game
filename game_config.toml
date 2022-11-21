@@ -9,3 +9,14 @@ id = 1
 levels = [
 	"src/introWorld/first.lean",
 ]
+
+[[worlds]]
+name = "Tactic World"
+id = 2
+parents = [1]
+levels = [
+  "src/tacticworld/refl.lean",
+	"src/tacticworld/exact.lean",
+  "src/tacticworld/simp.lean",
+  "src/tacticworld/intro.lean",
+]

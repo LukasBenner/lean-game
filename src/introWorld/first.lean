@@ -2,11 +2,11 @@
 import tactic
 
 /-
-Comment here
+Test
 -/
 
 /- Lemma
-For all natural numbers x, y and z, we have xy+z=xy+z. 
+For all natural numbers For all natural numbers $x$, $y$ and $z$, we have $xy + z = xy + z$. 
 -/
 open nat
 

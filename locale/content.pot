@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.1\n"
-"POT-Creation-Date: 2022-11-11 23:26:23.085732\n"
+"POT-Creation-Date: 2022-11-12 15:30:08.989514\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
@@ -26,9 +26,11 @@ msgid "First Lemma"
 msgstr ""
 
 #: Intro World level 1
-msgid "Comment here\n"
+msgid "Test\n"
 msgstr ""
 
 #: Intro World level 1
-msgid "For all natural numbers x, y and z, we have xy+z=xy+z. \n"
+msgid ""
+"For all natural numbers For all natural numbers $x$, $y$ and $z$, we have "
+"$xy + z = xy + z$. \n"
 msgstr ""

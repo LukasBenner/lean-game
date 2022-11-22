@@ -8,6 +8,7 @@ name = "Intro World"
 id = 1
 levels = [
 	"src/introWorld/first.lean",
+  "src/introWorld/primes.lean"
 ]
 
 [[worlds]]

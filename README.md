@@ -3,12 +3,14 @@
 ## How to compile
 
 In order to compile the lean-game you have to setup the lean-game-maker.
-See the [installation guide](../Lean-game-maker/INSTALL.md).
+See the [installation guide](https://github.com/LukasBenner/lean-game-maker/blob/master/INSTALL.md).
+Preferably install the lean-game-maker in the
+folder next to your lean-game.
 
 To compile the lean-game you have to activate the virtual environment of the lean-game-maker.
 
 ```bash
-source ../Lean-game-maker/venv/bin/activate
+source ../lean-game-maker/venv/bin/activate
 ```
 
 After preparing the configuration file and the Lean files, go to the root folder of your Lean project and run

@@ -1,0 +1,12 @@
+name = "Lean-Learning"
+version = "0.0.1"
+extra_files = "extras"
+intro = "src/intro.lean"
+
+
+[[worlds]]
+name = "Intro World"
+id = 1
+levels = [
+  "src/introWorld/first.lean",
+]

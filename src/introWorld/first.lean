@@ -1,16 +1,40 @@
 -- Level name : Intro
 import tactic
-
-/-
-Test
--/
-
-/- Lemma
-For all natural numbers For all natural numbers $x$, $y$ and $z$, we have $xy + z = xy + z$. 
--/
 open nat
 
-lemma example1 (x y z : nat) : x * y + z = x * y + z :=
+/-
+# Intro World
+
+## Level 1: A short introduction
+
+Comment here
+-/
+
+/- Hint : title_of_the_hint
+Content of the hint
+-/
+
+/- Example
+Description of the example
+-/
+example (x y z : nat) : x * y + z = x * y + z :=
 begin
-  sorry,
+  refl,
 end
+
+/- Lemma
+Description of the lemma
+-/
+lemma test_lemma (x y z : nat) : x * y + z = x * y + z :=
+begin
+  refl,
+end
+
+/- Theorem
+Description of the theorem
+-/
+theorem test_theorem (x y z : nat) : x * y + z = x * y + z :=
+begin
+  refl,
+end
+
